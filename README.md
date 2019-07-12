@@ -3,7 +3,7 @@
 A `React`-based Google Books Search app
 
 ## Technologies used
- 'React`, `Node`, `Express` and `MongoDB`
+ `React`, `Node`, `Express` and `MongoDB`
 
 ---
 
