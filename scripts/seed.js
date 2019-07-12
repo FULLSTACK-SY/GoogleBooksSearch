@@ -14,6 +14,18 @@ mongoose.connect(
 
 const booksSeed = [
   {
+    authors: ["Jen Wilkin"],
+    googleId: "xiTxCwAAQBAJ",
+    title: "None Like Him",
+    subtitle: "10 Ways God Is Different from Us (and Why That's a Good Thing)",
+    link:
+      "https://play.google.com/store/books/details?id=xiTxCwAAQBAJ&source=gbs_api",
+    description:
+      "God is self-existent, self-sufficient, eternal, immutable, omnipresent, omniscient, omnipotent, sovereign, infinite, and incomprehensible. We're not. And that's a good thing. Our limitations are by design. We were never meant to be God. But at the root of every sin is our rebellious desire to possess attributes that belong to God alone. Calling us to embrace our limits as a means of glorifying God's limitless power, Jen Wilkin invites us to celebrate the freedom that comes when we rest in letting God be God.",
+    image:
+      "http://books.google.com/books/content?id=xiTxCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+  },
+  {
     authors: ["Michaelann Martin"],
     _id: "5c3e29b2ecc3041a5ac64a11",
     googleId: "8lINUTi_GBYC",
@@ -38,18 +50,7 @@ const booksSeed = [
     image:
       "http://books.google.com/books/content?id=jcWWCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
   },
-  {
-    authors: ["Jen Wilkin"],
-    googleId: "xiTxCwAAQBAJ",
-    title: "None Like Him",
-    subtitle: "10 Ways God Is Different from Us (and Why That's a Good Thing)",
-    link:
-      "https://play.google.com/store/books/details?id=xiTxCwAAQBAJ&source=gbs_api",
-    description:
-      "God is self-existent, self-sufficient, eternal, immutable, omnipresent, omniscient, omnipotent, sovereign, infinite, and incomprehensible. We're not. And that's a good thing. Our limitations are by design. We were never meant to be God. But at the root of every sin is our rebellious desire to possess attributes that belong to God alone. Calling us to embrace our limits as a means of glorifying God's limitless power, Jen Wilkin invites us to celebrate the freedom that comes when we rest in letting God be God.",
-    image:
-      "http://books.google.com/books/content?id=xiTxCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-  },
+
   {
     authors: ["Jen Wilkin"],
     googleId: "uXQMvgAACAAJ",
